@@ -1,0 +1,17 @@
+2023-08-28 11:17:57.553 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-08-28 11:17:57.554 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-08-28 11:17:57.554 [info] Experiment 'pythonTestAdaptercf' is active
+2023-08-28 11:17:57.555 [info] Test server listening.
+2023-08-28 11:17:57.555 [info] > conda info --json
+2023-08-28 11:17:57.561 [info] Found: /bin/python3 --> /bin/python3.11
+2023-08-28 11:17:57.564 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-08-28 11:17:57.644 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-08-28 11:17:57.830 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-08-28 11:17:58.010 [info] Found: /usr/local/bin/python --> /usr/local/bin/python3.11
+2023-08-28 11:17:58.016 [info] Found: /usr/local/bin/python3 --> /usr/local/bin/python3.11
+2023-08-28 11:17:58.017 [info] Found: /usr/local/bin/python3.11 --> /usr/local/bin/python3.11
+2023-08-28 11:17:58.037 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-08-28 11:17:58.048 [info] > /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-08-28 11:17:58.154 [info] > /usr/local/bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-08-28 11:17:58.268 [info] Python interpreter path: /usr/local/bin/python
+2023-08-28 11:17:59.681 [info] Starting Pylance language server.

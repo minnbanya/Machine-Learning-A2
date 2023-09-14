@@ -1,0 +1,8 @@
+2023-08-29 14:53:56.463 [info] [Info  - 2:53:56 PM] (468) Pylance language server 2023.8.40 (pyright 03f79a81) starting
+2023-08-29 14:53:56.480 [info] [Info  - 2:53:56 PM] (468) Server root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist
+2023-08-29 14:53:56.481 [info] [Info  - 2:53:56 PM] (468) Starting service instance "code"
+2023-08-29 14:53:56.575 [info] [Info  - 2:53:56 PM] (468) Setting pythonPath for service "code": "/usr/local/bin/python"
+2023-08-29 14:53:56.580 [info] [Warn  - 2:53:56 PM] (468) stubPath /root/code/typings is not a valid directory.
+2023-08-29 14:53:56.635 [info] [Info  - 2:53:56 PM] (468) Assuming Python version 3.11
+2023-08-29 14:53:58.761 [info] [Info  - 2:53:58 PM] (468) Found 1 source file
+2023-08-29 14:53:59.530 [info] [Error - 2:53:59 PM] Stopping server timed out

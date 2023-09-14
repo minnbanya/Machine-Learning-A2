@@ -1,0 +1,21 @@
+2023-08-28 10:01:38.211 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-08-28 10:01:38.212 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-08-28 10:01:38.213 [info] Experiment 'pythonTestAdaptercf' is active
+2023-08-28 10:01:38.213 [info] Test server listening.
+2023-08-28 10:01:38.920 [info] > C:\Users\minnb\AppData\Local\Microsoft\WindowsApps\python3.11.exe -c "import sys;print(sys.executable)"
+2023-08-28 10:01:38.928 [error] [Error: Command failed: C:\Users\minnb\AppData\Local\Microsoft\WindowsApps\python3.11.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:UsersminnbAppDataLocalMicrosoftWindowsAppspython3.11.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:400:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1093:16)
+	at Socket.<anonymous> (node:internal/child_process:451:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:757:14)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\minnb\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe -c "import sys;print(sys.executable)"'
+}
+2023-08-28 10:01:41.278 [info] Starting Pylance language server.
+2023-08-28 11:13:34.375 [info] Discover tests for workspace name: code - uri: /root/code/app.py

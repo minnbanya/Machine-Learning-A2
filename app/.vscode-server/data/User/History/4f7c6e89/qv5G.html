@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Data</title>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('data-form');
+        const processedDataDiv = document.getElementById('processed-data');
+    
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+            const formData = new FormData(form);
+    
+            fetch('/process-data', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.text())
+            .then(processedData => {
+                processedDataDiv.innerHTML = `<p>Processed Data: ${processedData}</p>`;
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    });
+    </script>
+</head>
+<body>
+    <h1>Input Data</h1>
+    <form id="data_form" action="/process-data" method="post">
+        <label for="data">Name:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Submit</button>
+
+        <label for="data">Engine:</label>
+        <input type="text" id="engine" name="engine">
+        <button type="submit">Submit</button>
+
+        <label for="data">Mileage:</label>
+        <input type="text" id="mileage" name="mileage">
+        <button type="submit">Submit</button>
+    </form>
+    <div id="processed-data"></div>
+</body>
+</html>
